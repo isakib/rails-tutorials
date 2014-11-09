@@ -20,10 +20,21 @@ group :development, :test do
   gem 'spring',      '1.1.3' 
 end
 
-group :production do
-  gem 'pg',             '0.17.1'
-  gem 'rails_12factor', '0.0.2'
-end
+# For Heroku setup see at 1.5.1 Heroku setup (https://www.railstutorial.org/book/beginning#sec-heroku_setup)
+# group :production do
+#   gem 'pg',             '0.17.1'
+#   gem 'rails_12factor', '0.0.2'
+# end
+
+
+
+
+
+
+
+#===================
+
+
 # DEFAULT GOES HERE
 
 
